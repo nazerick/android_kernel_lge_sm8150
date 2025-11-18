@@ -83,7 +83,7 @@ config MQ_IOSCHED_DEADLINE
 	  MQ version of the deadline IO scheduler.
 
 config MQ_IOSCHED_KYBER
-te "Kyber I/O scheduler"
+    tristate "Kyber I/O scheduler"
 	default y
 	---help---
 	  The Kyber I/O scheduler is a low-overhead scheduler suitable for
