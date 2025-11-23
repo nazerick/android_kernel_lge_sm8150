@@ -614,7 +614,7 @@
 		<26 512 0 6215000>,    // 9 bus=1555
 		<26 512 0 7211000>,    // 10 bus=1804
 		<26 512 0 8532000>;    // 11 bus=2133
-@
+
 	/delete-property/qcom,initial-pwrlevel;
 
 	operating-points-v2 = <&gpu_opp_table_v2>;
